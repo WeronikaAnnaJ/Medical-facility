@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="MASProjektZaliczeniowy.setAppointment">
+  <grid id="27dc6" binding="appointmentPanel" layout-manager="GridLayoutManager" row-count="6" column-count="4" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="20" y="20" width="708" height="547"/>
+    </constraints>
+    <properties>
+      <background color="-11685445"/>
+      <font name="Candara" size="48" style="1"/>
+      <foreground color="-262151"/>
+      <toolTipText value=""/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <vspacer id="60c17">
+        <constraints>
+          <grid row="0" column="0" row-span="6" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </vspacer>
+      <component id="713ca" class="javax.swing.JButton" binding="odwołajWizytęLekarskąButton" default-binding="true">
+        <constraints>
+          <grid row="5" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-262151"/>
+          <foreground color="-16777216"/>
+          <text value="Odwołaj wizytę lekarską"/>
+        </properties>
+      </component>
+      <component id="8d7c3" class="javax.swing.JButton" binding="umówWizytęLekarskąButton" default-binding="true">
+        <constraints>
+          <grid row="4" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-262151"/>
+          <enabled value="true"/>
+          <foreground color="-16777216"/>
+          <hideActionText value="false"/>
+          <text value="Umów wizytę lekarską"/>
+          <verticalAlignment value="0"/>
+        </properties>
+      </component>
+      <component id="52a8c" class="javax.swing.JLabel" binding="jLabelPowitanie">
+        <constraints>
+          <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="WITAJ PACJENCIE"/>
+        </properties>
+      </component>
+      <component id="e9eb6" class="javax.swing.JLabel" binding="JLabelGraphic">
+        <constraints>
+          <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <horizontalAlignment value="0"/>
+          <horizontalTextPosition value="0"/>
+          <text value=""/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>
