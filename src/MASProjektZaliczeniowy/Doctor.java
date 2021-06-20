@@ -202,7 +202,7 @@ public class Doctor extends Medic { //klasa Lekarz dziedzicząca po klasie Praco
 
         switch (specialization){
 
-all
+
             case "Cardiologist":
                 return MedicalSpecialist.Cardiologist;
 
